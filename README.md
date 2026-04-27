@@ -27,9 +27,10 @@
 |--------|----------|--------|
 | POCO F7 | onyx | Supported |
 | Redmi Turbo 4 Pro| onyx | Supported |
-Not Tested on Redmi Turbo 4 Pro
----
 
+---
+-✅ Tested POCO F7 Indian
+-❌ Not Tested on Redmi Turbo 4 Pro
 ## ⚙️ Included Technologies
 
 ### KernelSU Next
