@@ -26,7 +26,8 @@
 | Device | Codename | Status |
 |--------|----------|--------|
 | POCO F7 | onyx | Supported |
-
+| Redmi Turbo 4 Pro| onyx | Supported |
+Not Tested on Redmi Turbo 4 Pro
 ---
 
 ## ⚙️ Included Technologies
