@@ -1,26 +1,27 @@
-# Konoha Kernel for POCO F7 (onyx)
+# OnyxSu Kernel for POCO F7 (onyx)
 
-> A modern custom GKI kernel for **POCO F7 / onyx** with **KernelSU Next** and **SUSFS** support.  
-> Built for performance, stability, root flexibility, and daily-driver reliability.
+> A premium custom GKI kernel for **POCO F7 (onyx)** featuring **KernelSU Next** and **SUSFS** support.  
+> Developed by **OnyxSu** for performance, stability, advanced root capabilities, and reliable daily use.
 
 ---
 
 ## ✨ Features
 
-- ✅ **KernelSU Next** integrated
-- ✅ **SUSFS** support
+- ✅ Integrated **KernelSU Next**
+- ✅ Full **SUSFS** support
 - ✅ Based on Android **6.6 GKI**
-- ✅ Optimized for **POCO F7 (onyx)**
-- ✅ Balanced performance profile
-- ✅ Improved responsiveness
-- ✅ Better thermal behavior
-- ✅ Daily-driver stable
-- ✅ AnyKernel3 flashable package
-- ✅ Compatible with rooted power users
+- ✅ Specifically optimized for **POCO F7 (onyx)**
+- ✅ Balanced performance tuning
+- ✅ Improved system responsiveness
+- ✅ Enhanced thermal management
+- ✅ Stable for daily-driver usage
+- ✅ Prebuilt `boot.img` included
+- ✅ Flashable via **Custom Recovery**
+- ✅ Suitable for rooted and advanced users
 
 ---
 
-## 📱 Device Support
+## 📱 Supported Device
 
 | Device | Codename | Status |
 |--------|----------|--------|
@@ -31,42 +32,46 @@
 ## ⚙️ Included Technologies
 
 ### KernelSU Next
-Modern kernel-based root solution with better integration than traditional userspace root methods.
+A modern kernel-based root solution providing deeper system integration and better efficiency compared to traditional userspace root methods.
 
 ### SUSFS
-Advanced filesystem hiding / stealth enhancements for supported environments.
+Advanced filesystem hiding and stealth functionality for supported environments.
 
 ### GKI Base
-Uses modern Android Generic Kernel Image architecture for better compatibility.
+Built on Android's modern **Generic Kernel Image (GKI)** architecture for improved compatibility and easier maintenance.
 
 ---
 
-## 📦 Release Package
+## 📦 Package Contents
 
-Flashable ZIP includes:
+Flashable ZIP package includes:
 
-- `Image.gz`
-- AnyKernel3 installer
-- Auto patching tools
-- Boot image repack support
+- `boot.img`
+- Recovery flash installer
+- Automatic patching tools
+- Ready-to-flash kernel package
 
 ---
 
-## 🚀 Installation
+## 🚀 Installation Guide
 
-### Method 1 — AnyKernel ZIP (Recommended)
+## Method 1 — Custom Recovery Flash (Recommended)
 
-1. Download latest release ZIP
-2. Boot to custom recovery or use kernel flashing tool
-3. Flash ZIP
-4. Reboot
+1. Download the latest release ZIP.
+2. Reboot into custom recovery.
+3. Select **Install**.
+4. Choose the kernel ZIP package.
+5. Swipe to flash.
+6. Reboot device.
 
-### Method 2 — Manual boot.img Patch
+---
 
-1. Extract stock `boot.img`
-2. Replace kernel with included `Image.gz`
-3. Repack boot image
-4. Flash using fastboot
+## Method 2 — Fastboot Flash boot.img
+
+1. Extract the ZIP package.
+2. Boot device into Fastboot mode.
+3. Flash included `boot.img`.
+4. Reboot device.
 
 ---
 
@@ -75,3 +80,64 @@ Flashable ZIP includes:
 ```bash
 fastboot flash boot boot.img
 fastboot reboot
+```
+
+---
+
+## 🔋 Recommended Usage
+
+- Use latest firmware for best compatibility.
+- Keep a backup of stock boot image.
+- Reboot once after first boot if needed.
+- Recommended for users familiar with custom kernels and rooting.
+
+---
+
+## 📢 Community & Support
+
+- **Support Channel:** https://t.me/OnyxSuChannel
+- **Discussion Group:** https://t.me/+-LiPh1mqvv5hMTM1
+- **Instagram:** @Aayush.aghav_21
+
+---
+
+## ⚠️ Important Notice
+
+- Bootloader must be unlocked.
+- Some banking / secure apps may detect root modifications.
+- OTA updates may require restoring stock boot image first.
+
+---
+
+## ⚠️ Disclaimer
+
+Flashing custom kernels always carries risk.
+
+By installing or using this kernel, you agree that:
+
+- You are doing so entirely at your own risk.
+- You are solely responsible for your device.
+- **OnyxSu** is **not responsible** for:
+  - Bootloops
+  - Soft brick / hard brick
+  - Data loss
+  - Warranty void
+  - Hardware damage
+  - App incompatibility
+  - Any other issue caused directly or indirectly
+
+If you are unsure what you are doing, do not flash.
+
+---
+
+## ❤️ Credits
+
+- KernelSU Team
+- SUSFS Contributors
+- Android Kernel Community
+
+---
+
+## ⭐ Final Note
+
+If you enjoy this project, consider supporting development and sharing feedback.
